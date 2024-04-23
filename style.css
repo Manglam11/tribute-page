@@ -8,6 +8,7 @@
     background-color: #F2EFE5;
     margin: 40px 10px;
     border-radius: 5px;
+    /* height: 100vh; */
 }
 
 .center {
@@ -52,4 +53,42 @@
     width: 100%;
     text-align: center;
     font-size: 20px;
+}
+
+#tribute-info {
+    margin: 10px;
+    /* text-align: center; */
+}
+
+#tribute-info h2 {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+
+.list {
+    padding: 0px 0px 0px 30px;
+    margin: 50px 40px;
+    /* gap: 10px; */
+    justify-content: space-between;
+    width: 600px;
+}
+
+.list li {
+    margin-bottom: 15px;
+    /* width: 600px; */
+}
+
+#bold {
+    font-weight: 900;
+    margin: 1px 0px;
+}
+
+#description-li {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
