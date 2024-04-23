@@ -3,3 +3,27 @@
     margin: 0;
     padding: 0;
 }
+
+#main {
+    background-color: #F2EFE5;
+    margin: 40px 10px;
+    border-radius: 5px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    color: #3C3633;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
